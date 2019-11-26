@@ -1,3 +1,6 @@
+body {
+    font-family: arial, sans-serif;
+}
 ul.header {
     list-style-type: none;
     margin: 0;
@@ -33,10 +36,12 @@ ul.footer {
     padding: 0;
     overflow: hidden;
     background-color: #f2f2f2;
-    height: 35px;
+    height: 40px;
     width: 100%;
     bottom: 0;
     position: fixed;
+    font-size: 13px;
+    border-top: 1px solid #e4e4e4;
 }
 
 ul.footer li {
@@ -45,19 +50,22 @@ ul.footer li {
 
 ul.footer li a {
     display: block;
-    color: #000;
-    opacity: 0.75;
+    color: #6c7074;
     text-align: center;
-    margin: 14px 16px;
+    margin: 14px 14px;
     text-decoration: none;
 }
 
 ul.footer li a:hover {
     text-decoration: underline;
 }
+div#fl {
+    margin-left: 15px;
+}
 
 div.fr {
     float: right;
+    margin-right: 15px;
 }
 img.logo {
     padding-top: 109px;
