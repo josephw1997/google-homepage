@@ -3,10 +3,12 @@ body {
 }
 ul.header {
     list-style-type: none;
-    margin: 0;
+    margin: 17px 11px 25px 11px;
     padding: 0;
+    padding-top: 7px;
     overflow: hidden;
     background-color: white;
+    font-size: 13px;
 }
 
 ul.header li {
@@ -16,9 +18,8 @@ ul.header li {
 ul.header li a {
     display: block;
     color: #000;
-    opacity: 0.75;
     text-align: center;
-    margin: 14px 16px;
+    margin: 0px 10px;
     text-decoration: none;
 }
 
@@ -28,6 +29,35 @@ ul.header li a:hover {
 
 div.hr {
     float: right;
+    margin-right: 30px;
+}
+
+ul.header div.hr li:last-child{
+    background-color: #4583ed;
+    width: 70px;
+    line-height: 14px;
+    padding: 7px 0px;
+    margin-top: -7px;
+    border-radius: 2px;
+}
+
+
+a#si {
+    font-weight: bold;
+    color: #fffffc;
+}
+
+a#apps {
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: rgb(0, 0, 0);
+    margin: -7px 10px 0px 3px;
+    
 }
 
 ul.footer {
