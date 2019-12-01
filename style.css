@@ -98,10 +98,31 @@ div.fr {
     margin-right: 15px;
 }
 img.logo {
-    padding-top: 109px;
+    padding-top: 120px;
+    padding-bottom: 20px;
     
 }
 
 div.main {
     text-align: center;
+}
+
+div#searchbox {
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input#search {
+    border: none;
+    width: 540px;
+    height: 36px;
+    padding-top: 5px;
+}
+
+div#searchbox:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
